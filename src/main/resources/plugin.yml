@@ -1,0 +1,12 @@
+name: CommandForAll
+main: net.terrocidepvp.commandforall.CommandForAll
+version: ${project.version}
+author: Terrobility
+description: ${project.description}
+website: https://terrocidepvp.net/
+commands:
+    pexecute:
+        description: "Execute a command for all online players through the '#player' placeholder."
+permissions:
+    commandforall.use:
+        description: "Gives access to the '/pexecute' command."
